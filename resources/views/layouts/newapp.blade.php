@@ -74,7 +74,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="{{url('/info#about_us')}}" class="nav-link">
-                            <span class="nav-link-inner-text">About Us</span>
+                            <span class="nav-link-inner-text">Why choose us ?</span>
                         </a>
                     </li>
                     <li class="nav-item">

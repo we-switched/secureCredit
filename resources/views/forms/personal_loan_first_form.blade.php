@@ -38,7 +38,7 @@
                 <div class="form-group">
                     <label for="email" class="col-md-4 control-label">Email address</label>
                     <div class="col-md-8 inputGroupContainer">
-                        <div class="input-group"><input type="email" class="form-control custom-mine @error('email') is-invalid @enderror" id="email" placeholder="Enter your email address" name="email" value="{{ old('email') }}" required></div>
+                        <div class="input-group"><input type="email" class="form-control custom-mine @error('email') is-invalid @enderror" id="email" placeholder="Enter your email address" name="email" value="{{ old('email') }}" ></div>
                     </div> 
                     @error('email')
                     <span class="invalid-feedback" role="alert">

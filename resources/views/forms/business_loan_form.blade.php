@@ -56,11 +56,11 @@
                 <label>Is it a Top-Up Loan ?</label>
                 <div class="form-check form-check-inline">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="topup" value="No" {{ old('topup') == "No" ? 'checked' : '' }} required>
+                        <input class="form-check-input" type="radio" name="topup" value="No" id="topupno" {{ old('topup') == "No" ? 'checked' : '' }} required>
                         <label class="control-label form-check-label" for="topupno">No</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="topup" value="Yes" {{ old('topup') == "Yes" ? 'checked' : '' }} required>
+                        <input class="form-check-input" type="radio" name="topup" value="Yes" id="topupyes" {{ old('topup') == "Yes" ? 'checked' : '' }} required>
                         <label class="control-label form-check-label" for="topupyes">Yes</label>
                     </div>
                 </div>

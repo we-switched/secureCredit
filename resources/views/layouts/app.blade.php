@@ -35,7 +35,7 @@
                 
                 @if(Auth::guest())              
                   <a href="{{url('/welcome#products')}}" class="structure-link structure-menu-link">Products & Services</a>
-                  <a href="{{url('/info#about_us')}}" class="structure-link structure-menu-link" target="blank">About Us</a>
+                  <a href="{{url('/info#about_us')}}" class="structure-link structure-menu-link" target="blank">Why choose us ?</a>
                   <a href="{{url('/welcome#contact_us')}}" class="structure-link structure-menu-link">Contact Us</a>
                   
                   <a class="structure-link structure-menu-link" data-toggle="modal" data-target="#partner_with_us_info">Partner with Us</a>

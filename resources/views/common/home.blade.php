@@ -250,7 +250,7 @@
         </div>
 
       </div>
-
+      {{ TawkTo::widgetCode() }}
     </div>
   </div>
 

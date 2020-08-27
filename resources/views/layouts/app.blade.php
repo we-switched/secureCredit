@@ -185,5 +185,6 @@
   })();
   </script>
   <!--End of Tawk.to Script-->
+  @tawk
 </body>
 </html>

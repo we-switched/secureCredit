@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5748f8f748fdf062cf28c7234cffcca1",
+    "content-hash": "4e096eefd2b682b5fb1368b424eede50",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -320,6 +320,60 @@
             "time": "2020-06-16T20:11:17+00:00"
         },
         {
+            "name": "emotality/tawk-laravel",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emotality/tawk-laravel.git",
+                "reference": "84781b9256f5ce33df5c7c943500952154028a88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emotality/tawk-laravel/zipball/84781b9256f5ce33df5c7c943500952154028a88",
+                "reference": "84781b9256f5ce33df5c7c943500952154028a88",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Emotality\\TawkTo\\TawkToServiceProvider"
+                    ],
+                    "aliases": {
+                        "TawkTo": "Emotality\\TawkTo\\Facades\\TawkTo"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Emotality\\TawkTo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-Pierre Fourie",
+                    "email": "jp@emotality.com"
+                }
+            ],
+            "description": "A tawk.to chat widget for Laravel.",
+            "keywords": [
+                "chat",
+                "laravel",
+                "tawk",
+                "tawk.to",
+                "tawkto",
+                "widget"
+            ],
+            "time": "2018-07-29T10:16:06+00:00"
+        },
+        {
             "name": "erusev/parsedown",
             "version": "1.7.4",
             "source": {
@@ -418,6 +472,50 @@
                 "trusted proxy"
             ],
             "time": "2020-06-23T01:36:47+00:00"
+        },
+        {
+            "name": "genealabs/laravel-tawk",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GeneaLabs/laravel-tawk.git",
+                "reference": "faa54f6820b19372a62ebfbad30672acbb377c2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GeneaLabs/laravel-tawk/zipball/faa54f6820b19372a62ebfbad30672acbb377c2b",
+                "reference": "faa54f6820b19372a62ebfbad30672acbb377c2b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.8 - 6.0",
+                "illuminate/view": "5.8 - 6.0"
+            },
+            "type": "laravel-package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "GeneaLabs\\LaravelTawk\\Providers\\Service"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GeneaLabs\\LaravelTawk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Bronner",
+                    "email": "mike@genealabs.com"
+                }
+            ],
+            "description": "Integrate Tawk.to into yoru Laravel and Nova apps.",
+            "time": "2019-08-29T03:45:20+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5294,6 +5392,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {
